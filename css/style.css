@@ -6,3 +6,27 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+h1 {
+    text-align: center;
+    padding: 15px;
+}
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+}
+.card-container {
+    display: flex;
+}
+.card {
+    flex-basis: calc(100% / 5);
+}
+.card img {
+    width: 100%;
+}
+.desc {
+    text-align: center;
+}
+.poster {
+    height: 342px;
+    overflow: hidden;
+}
